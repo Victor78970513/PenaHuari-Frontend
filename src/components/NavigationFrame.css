@@ -1,0 +1,54 @@
+.footer{
+    background-color: #272B2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    height: 58px;
+    padding: 5px;
+}
+
+.ul-container{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+/* configuracion y colores basa */
+.nav-links li{
+    display: inline-block;
+    background-color: #272B2D;
+    border-radius: 30px;
+    padding: 5px 20px 5px;
+    cursor: pointer;
+}
+
+.nav-links a{
+    color: #D1C7C7;
+    text-decoration: none;
+}
+
+
+/* para activar los colores cuando se presione */
+.nav-links li.active{
+    background-image: linear-gradient(
+        90deg, #FEA04D, #FE564D
+    );
+    border-radius: 30px;
+}
+
+.nav-link.active-link{
+    color: black;
+}
+
+
+
+
