@@ -27,13 +27,24 @@
     display: inline-block;
     background-color: #272B2D;
     border-radius: 30px;
-    padding: 5px 20px 5px;
+    padding: 5px 15px 5px;
     cursor: pointer;
 }
 
 .nav-links a{
     color: #D1C7C7;
     text-decoration: none;
+    font-size: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.icono{
+    font-size: 20px;
+}
+
+.material-symbols-outlined{
+    font-size: 20px;
 }
 
 
@@ -48,7 +59,6 @@
 .nav-link.active-link{
     color: black;
 }
-
 
 
 
