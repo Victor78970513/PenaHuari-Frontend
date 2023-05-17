@@ -1,17 +1,25 @@
 .barra-presupuesto-container{
     display: flex;
-    width: 156px;
-    height: 26px;
-    background-color: white;
-    border-radius: 13px;
-    align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    margin: 10px;
 }
 
-.barra-presupuesto-container h5{
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+.barra-presupuesto-input {
+    width: 152px;
+    height: 26px;
+    outline: none;
+    border: none;
+    background-color: #E7E7E7;
+    border-radius: 30px;
+    padding-left: 13px;
     letter-spacing: 1.59px;
-    color: black;
     font-weight: bold;
 }
+
+.barra-presupuesto-input::placeholder {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+

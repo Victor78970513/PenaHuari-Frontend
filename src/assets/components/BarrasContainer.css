@@ -1,0 +1,17 @@
+.barras-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.barra-presupuesto {
+    display: flex;
+    flex-direction: row;
+}
+
+.barra-presupuesto span {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}

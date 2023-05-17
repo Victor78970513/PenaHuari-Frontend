@@ -1,13 +1,11 @@
 import './App.css'
-import { BarraBusqueda } from './assets/components/BarraBusqueda'
-import { BarraPresupuesto } from './assets/components/BarraPresupuesto'
+import BarrasContainer from './assets/components/BarrasContainer'
 
 function App() {
 
   return (
       <div>
-        <BarraBusqueda/>
-        <BarraPresupuesto/>
+        <BarrasContainer/>
       </div>
   )
 }
