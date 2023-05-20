@@ -1,0 +1,39 @@
+.all-conteiner{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 11px;
+    gap: 10px;
+
+    width: 24px;
+    height: 22px;
+
+    background: linear-gradient(270deg, rgba(254, 160, 77, 0) 0%, rgba(254, 160, 77, 0.6) 55.01%), #FE564D;
+    border-radius: 30px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.all-conteiner span{
+  
+    width: 24px;
+    height: 22px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+
+    letter-spacing: 1.59px;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

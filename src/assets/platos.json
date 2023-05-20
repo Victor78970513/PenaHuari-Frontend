@@ -1,0 +1,14 @@
+[
+    {"id": 1,
+     "imgsrc": "./static/images/Charquekan.jpg",
+     "name": "Charquekan"
+    },
+    {"id": 2,
+     "imgsrc": "/static/images/DesayunoYungueño.jpg",
+     "name": "Yungueño"
+    },
+    {"id": 3,
+     "imgsrc": "/static/images/PiqueMacho.jpg",
+     "name": "Piquemacho"
+    }
+]

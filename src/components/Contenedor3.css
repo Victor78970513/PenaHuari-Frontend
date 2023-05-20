@@ -1,0 +1,16 @@
+.contenedor3-conteiner{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 364px;
+    height: 100px;
+    overflow-x: scroll;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
