@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Contenedor2.css"
-import All from './All'
-import logors from '../assets/logos.json'
+import All from '../atoms/All'
+import logors from '../../assets/logos.json'
 export const Contenedor2 = (props) => {
   return (
     <div className='contenedor2-conteiner'>

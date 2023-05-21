@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Contenedor3.css"
-import Platos from './Platos'
-import plators from '../assets/platos.json'
+import Platos from '../atoms/Platos'
+import plators from '../../assets/platos.json'
 export const Contenedor3 = (props) => { 
     return (
         <div className = 'contenedor3-conteiner'>

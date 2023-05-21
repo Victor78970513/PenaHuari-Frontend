@@ -1,5 +1,5 @@
 import './App.css'
-import { Contenedor1 } from './components/Contenedor1'
+import { Contenedor1 } from './components/organisms/Contenedor1'
 function App() {
   
   return (

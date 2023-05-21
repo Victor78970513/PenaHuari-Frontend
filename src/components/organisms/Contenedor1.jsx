@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Contenedor1.css"
-import Contenedor2 from './Contenedor2'
-import Contenedor3 from './Contenedor3'
+import Contenedor2 from '../molecules/Contenedor2'
+import Contenedor3 from '../molecules/Contenedor3'
 
 export const Contenedor1 = (props) => {
   const contenedor1 =props.contenedor1
