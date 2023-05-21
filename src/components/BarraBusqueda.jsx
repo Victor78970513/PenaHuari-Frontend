@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./BarraBusqueda.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import BotonBusqueda from "./BotonBusqueda";
 
 function BarraBusqueda() {
   const [dish, setName] = useState("");
@@ -13,9 +12,7 @@ function BarraBusqueda() {
   return (
     <div className="barra-busqueda">
       <div className="barra-busqueda-container">
-        <span className="barra-busqueda-icon">
-          <FontAwesomeIcon icon={faMagnifyingGlass} />
-        </span>
+        <BotonBusqueda/>
         <input
           type="text"
           id="name"

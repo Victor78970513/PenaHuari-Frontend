@@ -1,0 +1,7 @@
+.boton-presupuesto {
+    display: flex;
+    width: 45px;
+    background-color: #1B1D22;
+    border: none;
+    align-items: center;
+}

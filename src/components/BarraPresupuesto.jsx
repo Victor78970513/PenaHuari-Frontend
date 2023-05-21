@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./BarraPresupuesto.css";
+import BotonPresupuesto from "./BotonPresupuesto";
 
 function BarraPresupuesto() {
   const [budget, setName] = useState("");
@@ -18,6 +19,7 @@ function BarraPresupuesto() {
         onChange={handleChange}
         className="barra-presupuesto-input"
       />
+      <BotonPresupuesto/>
     </div>
   );
 }

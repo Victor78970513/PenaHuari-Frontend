@@ -1,0 +1,9 @@
+.boton-busqueda {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    background-color: #E7E7E7;
+    border: none;
+    align-items: center;
+    margin-left: 28px;
+}

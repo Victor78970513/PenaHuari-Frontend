@@ -1,5 +1,5 @@
 import './App.css'
-import BarrasContainer from './assets/components/BarrasContainer'
+import BarrasContainer from './components/BarrasContainer'
 
 function App() {
 
