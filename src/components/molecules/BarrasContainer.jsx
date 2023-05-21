@@ -1,7 +1,8 @@
 import React from 'react'
-import BarraBusqueda from './BarraBusqueda'
-import BarraPresupuesto from './BarraPresupuesto'
+import BarraBusqueda from '../atoms/BarraBusqueda'
+import BarraPresupuesto from '../atoms/BarraPresupuesto'
 import './BarrasContainer.css'
+
 
 const BarrasContainer = () => {
   return (

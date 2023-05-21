@@ -1,5 +1,5 @@
 import React from 'react'
-import Presupuesto from "../../public/static/icons/boton-presupuesto.svg";
+import Presupuesto from "../../../public/static/icons/boton-presupuesto.svg";
 import "./BotonPresupuesto.css"
 
 const BotonPresupuesto = () => {

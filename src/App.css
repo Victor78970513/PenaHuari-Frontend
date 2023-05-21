@@ -1,3 +1,5 @@
 body {
+  display: flex;
   background-color: #1B1D22;
+  justify-content: center;
 }

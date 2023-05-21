@@ -1,5 +1,5 @@
 import React from 'react'
-import Busqueda from "../../public/static/icons/boton-busqueda.svg";
+import Busqueda from "../../../public/static/icons/boton-busqueda.svg";
 import "./BotonBusqueda.css"
 
 const BotonBusqueda = () => {
