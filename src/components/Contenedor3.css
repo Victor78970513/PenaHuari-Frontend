@@ -1,11 +1,10 @@
 .contenedor3-conteiner{
-
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    
     width: 364px;
-    height: 100px;
+    height: 133px;
     overflow-x: scroll;
 
 

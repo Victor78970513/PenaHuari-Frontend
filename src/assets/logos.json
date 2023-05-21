@@ -1,0 +1,14 @@
+[
+    {"id": 1,
+     "imgsrc": "./static/images/Tenedores",
+     "name": "All"
+    },
+    {"id": 2,
+     "imgsrc": "./static/images/Taza",
+     "name": "Breakfast"
+    },
+    {"id": 3,
+     "imgsrc": "./static/images/filete",
+     "name": "Lauch"
+    }
+]
