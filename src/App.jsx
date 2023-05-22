@@ -1,12 +1,12 @@
-import { NavigationFrame } from "./components/NavigationFrame"
+import { NavBar } from "./components/molecules/NavBar"
 
 
 function App() {
 
   return (
     <div>
+      <NavBar/>
       
-      <NavigationFrame/>
     </div>
   )
 }
