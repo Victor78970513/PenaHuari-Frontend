@@ -1,12 +1,13 @@
 import { Icon } from '@iconify/react'
 import React from 'react'
+import './Button.css'
 
-export const Button = ({icon, name}) => {
+export const Button = ({icon, name, click, estilo, }) => {
   return (
-    <button className='button'>
+    <div className={estilo} onClick={click}>
       <Icon className="icono" icon= {icon}/>
-      <span>{name}</span>
-    </button>
+      <span className='name'>{name}</span>
+    </div>
   )
 }
 

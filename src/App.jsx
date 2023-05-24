@@ -8,20 +8,31 @@ import "./App.css";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<HomeScreen />} />
-      <Route path="/dish" element={<DishScreen />} />
-      <Route path="/table" element={<TableScreen />} />
-      <Route path="/profile" element={<ProfileScreen />} />
-    </Routes>
+
+    <div>
+
+      <BrowserRouter>
+
+        <Routes>
+          <Route path="/" element={<HomeScreen />} />
+          <Route path="/dish" element={<DishScreen />} />
+          <Route path="/table" element={<TableScreen />} />
+          <Route path="/profile" element={<ProfileScreen />} />
+        </Routes>
+        
+        <NavBar/>
+
+      </BrowserRouter>
+    </div>
+
   );
 }
 
 
-function Root(){
-  <BrowserRouter>
-    <App/>
-  </BrowserRouter>
-}
+// function Root(){
+//   <BrowserRouter>
+//     <App/>
+//   </BrowserRouter>
+// }
 
-export default Root;
+export default App;
