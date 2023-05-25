@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./BarraPresupuesto.css";
-import BotonPresupuesto from "./BotonPresupuesto";
+import Presupuesto from '../../static/icons/boton-presupuesto.svg'
+import Boton from "./Boton";
 
 function BarraPresupuesto() {
   const [budget, setName] = useState("");
@@ -19,7 +20,7 @@ function BarraPresupuesto() {
         onChange={handleChange}
         className="barra-presupuesto-input"
       />
-      <BotonPresupuesto/>
+      <Boton icono={Presupuesto} name_class={'boton-presupuesto'}/>
     </div>
   );
 }

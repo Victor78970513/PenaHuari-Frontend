@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./BarraBusqueda.css";
-import BotonBusqueda from "./BotonBusqueda";
+import Busqueda from '../../static/icons/boton-busqueda.svg'
+import Boton from "./Boton";
 
 function BarraBusqueda() {
   const [dish, setName] = useState("");
@@ -12,7 +13,7 @@ function BarraBusqueda() {
   return (
     <div className="barra-busqueda">
       <div className="barra-busqueda-container">
-        <BotonBusqueda/>
+        <Boton icono={Busqueda} name_class={'boton-busqueda'}/>
         <input
           type="text"
           id="name"

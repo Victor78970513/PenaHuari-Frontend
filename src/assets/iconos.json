@@ -1,0 +1,10 @@
+[
+    {"id": 1,
+     "imgsrc": "../../static/icons/boton-busqueda.svg",
+     "name_icon": "Busqueda"
+    },
+    {"id": 2,
+     "imgsrc": "../../static/icons/boton-presupuesto.svg",
+     "name_icon": "Presupuesto"
+    }
+]
