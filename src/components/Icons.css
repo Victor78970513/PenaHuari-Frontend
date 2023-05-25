@@ -1,0 +1,27 @@
+.icons_container ::before{
+    position: absolute;
+    left: 3.57%;
+    right: 33.07%;
+    top: 3.57%;
+    bottom: 39.29%;
+
+    border: 1px solid #FFFFFF;
+}
+.icons_container ::after{
+    position: absolute;
+    left: 24.85%;
+    right: 3.57%;
+    top: 21.69%;
+    bottom: 3.6%;
+
+    border: 1px solid #FFFFFF;
+}
+.icons_container1{
+    position: absolute;
+    left: 17.86%;
+    right: 17.86%;
+    top: 3.57%;
+    bottom: 3.57%;
+
+    border: 1px solid #FFFFFF;
+}
