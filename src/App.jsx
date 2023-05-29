@@ -5,13 +5,14 @@ import DishScreen from "./components/screens/dish_screen/DishScreen";
 import TableScreen from "./components/screens/table_screen/TableScreen";
 import ProfileScreen from "./components/screens/profile_screen/ProfileScreen";
 import "./App.css";
+import RestaurantLocation from "./components/screens/restaurant_location/RestaurantLocation";
 
 function App() {
   return (
 
     <div>
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
 
         <Routes>
           <Route path="/" element={<HomeScreen />} />
@@ -22,7 +23,8 @@ function App() {
         
         <NavBar/>
 
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <RestaurantLocation/>
     </div>
 
   );

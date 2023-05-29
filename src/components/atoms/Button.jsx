@@ -6,7 +6,7 @@ export const Button = ({icon, name, click, estilo, }) => {
   return (
     <div className={estilo} onClick={click}>
       <Icon className="icono" icon= {icon}/>
-      <span className='name'>{name}</span>
+      <span>{name}</span>
     </div>
   )
 }
