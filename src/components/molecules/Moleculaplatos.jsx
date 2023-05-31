@@ -1,10 +1,10 @@
 import React from 'react'
-import "./Contenedor3.css"
+import "./Moleculaplatos.css"
 import Platos from '../atoms/Platos'
 import plators from '../../assets/platos.json'
-export const Contenedor3 = (props) => { 
+export const Moleculaplatos = (props) => { 
     return (
-        <div className = 'contenedor3-conteiner'>
+        <div className = 'moleculaplatos-conteiner'>
             {
                 plators.map((platos)=>{
                     return <Platos platos={platos}/>
@@ -14,4 +14,4 @@ export const Contenedor3 = (props) => {
     )
 }
 
-export default Contenedor3
+export default Moleculaplatos

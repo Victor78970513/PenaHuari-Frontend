@@ -1,0 +1,14 @@
+import React from 'react'
+import "./Moleculacategoria.css"
+import All from '../atoms/All'
+import logors from '../../assets/logos.json'
+export const Moleculacategoria = (props) => {
+  return (
+    <div className='moleculacategoria-conteiner'>
+        <All/>
+        <img src='../static/images/tenedoreslogo.svg' alt=''/>
+    </div>
+  )
+}
+
+export default Moleculacategoria

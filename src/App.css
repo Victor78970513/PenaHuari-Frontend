@@ -3,6 +3,11 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  position: relative;
+  width: 375px;
+  height: 812px;
+  background: #1B1D22;
+  border-radius: 30px;
 }
 
 .logo {

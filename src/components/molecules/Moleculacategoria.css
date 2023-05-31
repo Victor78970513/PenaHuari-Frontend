@@ -1,4 +1,4 @@
-.contenedor2-conteiner{
+.moleculacategoria-conteiner{
 
     display: flex;
     flex-direction: row;
@@ -13,11 +13,11 @@
     order: 0;
     flex-grow: 0;
 }
-.contenedor2-conteiner img{
+.moleculacategoria-conteiner img{
 
     width: 39px;
     height: 28px;
-
+    
     flex: none;
     order: 1;
     flex-grow: 0;

@@ -1,11 +1,11 @@
 import './App.css'
-import { Contenedor1 } from './components/organisms/Contenedor1'
+import { OrganismoPI } from './components/organisms/OrganismoPI'
 function App() {
   
   return (
     
     <div className='App'>
-      <Contenedor1/>
+      <OrganismoPI/>
 
     </div>
   )
