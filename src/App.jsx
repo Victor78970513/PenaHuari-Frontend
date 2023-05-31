@@ -1,10 +1,11 @@
 import "./App.css";
-import ShowScreen from "./components/screens/ShowScreen";
+import Table from "./components/atoms/Table";
+import TableScreen from "./components/screens/TableScreen";
 
 function App() {
   return (
     <div>
-      <ShowScreen />
+      <TableScreen/>
     </div>
   );
 }
