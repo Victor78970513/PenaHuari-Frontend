@@ -7,6 +7,5 @@ import Root from './App.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App/>
-    {/* <Root/> */}
   </React.StrictMode>,
 )

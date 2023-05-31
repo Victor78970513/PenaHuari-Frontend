@@ -28,11 +28,4 @@ function App() {
   );
 }
 
-
-// function Root(){
-//   <BrowserRouter>
-//     <App/>
-//   </BrowserRouter>
-// }
-
 export default App;
