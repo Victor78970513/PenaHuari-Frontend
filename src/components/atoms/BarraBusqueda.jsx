@@ -13,7 +13,7 @@ function BarraBusqueda() {
   return (
     <div className="barra-busqueda">
       <div className="barra-busqueda-container">
-        <Boton icono={Busqueda} name_class={"boton-busqueda"} />
+        <Boton icono={Busqueda} type={"boton-busqueda"} />
         <input
           type="text"
           id="name"

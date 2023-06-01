@@ -11,7 +11,7 @@ const TableScreen = () => {
         <h5>Select a table</h5>
       </div>
       <TableContainer />
-      <Boton name_class={"boton-reserva"} name_button={"Reserva"} />
+      <Boton type={"boton-reserva"} name_button={"Reserva"} />
     </div>
   );
 };

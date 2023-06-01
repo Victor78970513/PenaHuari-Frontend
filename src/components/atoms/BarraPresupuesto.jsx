@@ -20,7 +20,7 @@ function BarraPresupuesto() {
         onChange={handleChange}
         className="barra-presupuesto-input"
       />
-      <Boton icono={Presupuesto} name_class={"boton-presupuesto"} />
+      <Boton icono={Presupuesto} type={"boton-presupuesto"} />
     </div>
   );
 }

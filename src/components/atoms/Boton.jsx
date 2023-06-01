@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Boton.css";
 
-const Boton = ({ icono, name_class, name_button }) => {
+const Boton = ({ icono, type, name_button }) => {
+  const [isButtonActive, setIsButtonActive] = useState(false);
   const handleClick = () => {
-    console.log("boton funcionando");
+    setIsButtonActive(!isButtonActive);
+
+    switch (type) {
+      case "mesa":
+        console.log("Mesa seleccionada");
+        break;
+      case "boton-reserva":
+        console.log("Mesa Reservada");
+        break;
+    }
   };
+  const name_class = `${type} ${isButtonActive ? "active" : ""}`;
   return (
     <div>
       <button onClick={handleClick} className={name_class}>

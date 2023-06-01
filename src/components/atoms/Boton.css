@@ -51,3 +51,21 @@
   letter-spacing: 1.59px;
   color: #000000;
 }
+
+.mesa {
+  width: 106px;
+  height: 47px;
+  margin: 6px 0px;
+  background: #ffffff;
+  border: 5px solid #000000;
+  border-radius: 30px;
+}
+
+.mesa.active {
+  width: 106px;
+  height: 47px;
+  margin: 6px 0px;
+  background: #ffffff;
+  border: 5px solid #FE564D;
+  border-radius: 30px;
+}
