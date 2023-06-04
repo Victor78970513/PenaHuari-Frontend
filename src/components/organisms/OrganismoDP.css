@@ -1,0 +1,20 @@
+.organismodp-conteiner{
+
+    position: relative;
+    width: 375px;
+    height: 812px;
+
+    background: #1B1D22;
+    border-radius: 30px;
+
+}
+.organismodp-conteiner img{
+    
+    position: absolute;
+    width: 314px;
+    height: 291px;
+    left: 30px;
+    top: 88px;
+    border-radius: 30px;
+
+}

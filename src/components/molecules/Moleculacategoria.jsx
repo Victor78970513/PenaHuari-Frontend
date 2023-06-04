@@ -6,7 +6,7 @@ export const Moleculacategoria = (props) => {
   return (
     <div className='moleculacategoria-conteiner'>
         <All/>
-        <img src='../static/images/tenedoreslogo.svg' alt=''/>
+        <img src='../static/icons/tenedoreslogo.svg' alt=''/>
     </div>
   )
 }
