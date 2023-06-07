@@ -1,12 +1,27 @@
 .sillas-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  width: 128px;
+  height: 10px;
+  position: relative;
 }
-.sillas-container span {
+
+.sillas-container::before {
+  content: "";
+  position: absolute;
   width: 27px;
   height: 6px;
   background: #ffffff;
+  transform: translate(80%, 0%);
+  border-radius: 30px ;
   border: 2px solid #000000;
-  border-radius: 30px;
+}
+
+.sillas-container::after {
+  content: "";
+  position: absolute;
+  width: 27px;
+  height: 6px;
+  background: #ffffff;
+  transform: translate(250%, 0%);
+  border-radius:  30px;
+  border: 2px solid #000000;
 }

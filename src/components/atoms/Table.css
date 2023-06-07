@@ -9,22 +9,3 @@
   display: flex;
   justify-content: center;
 }
-
-.silla-izquierda {
-  margin-left: 25px;
-  width: 27px;
-  height: 6px;
-  background: #ffffff;
-  border: 2px solid #000000;
-  border-radius: 30px;
-}
-
-.silla-derecha {
-  margin-left: 16px;
-  width: 27px;
-  height: 6px;
-  background: #ffffff;
-  border: 2px solid #000000;
-  border-radius: 30px;
-}
-

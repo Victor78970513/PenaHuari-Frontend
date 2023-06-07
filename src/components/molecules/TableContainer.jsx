@@ -3,13 +3,15 @@ import "./TableContainer.css";
 import Table from "../atoms/Table";
 
 const TableContainer = () => {
-  const tableElements = [];
-
-  for (let i = 1; i < 7; i++) {
-    tableElements.push(<Table table={i} key={i} />);
-  }
-
-  return <div className="tables-container">{tableElements}</div>;
+  return (
+    <div className="tables-container">
+      <Table table={1} key={1} />
+      <Table table={2} key={2} />
+      <Table table={3} key={3} />
+      <Table table={4} key={4} />
+      <Table table={5} key={5} />
+      <Table table={6} key={6} />
+    </div>
+  );
 };
-
 export default TableContainer;
