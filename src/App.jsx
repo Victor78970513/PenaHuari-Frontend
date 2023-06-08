@@ -16,11 +16,12 @@ function App() {
   );
 }
 
-
-function Root(){
-  <BrowserRouter>
-    <App/>
-  </BrowserRouter>
+function Root() {
+  return (
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
 }
 
 export default Root;
