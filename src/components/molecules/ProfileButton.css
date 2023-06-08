@@ -1,0 +1,28 @@
+.profile-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 370px;
+    height: 60px;
+    background: #1B1D22;
+    margin-bottom: 16px;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+}
+.profile-button span{
+    color: white;
+    font-size: 20px;
+}
+.icons{
+    color: white;
+    font-size: 38px;
+    margin-right: 16px;
+}
+.arrow-icon{
+    color: orange;
+    font-size: 38px;
+    margin-right: 10px;
+}
