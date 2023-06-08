@@ -6,17 +6,18 @@ import "./App.css";
 function App() {
   return (
     <Routes>
-      <Route path="/show" element={ <ShowScreen/> } />
+      <Route path="/show" element={<ShowScreen />} />
       <Route path="/table" element={<TableScreen />} />
     </Routes>
   );
 }
 
 function Root() {
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>;
+  return (
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
 }
 
 export default Root;
-
