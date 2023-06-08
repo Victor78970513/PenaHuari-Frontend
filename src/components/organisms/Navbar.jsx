@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
 import Button from "../atoms/Button";
+// import Button from "../atoms/Button";
 const Navbar = () => {
   const [activelink, setActiveLink] = useState("/");
   const navigate = useNavigate();
