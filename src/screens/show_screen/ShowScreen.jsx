@@ -1,6 +1,6 @@
 import React from "react";
-import Boton from "../atoms/Boton";
-import ShowsContainer from "../atoms/ShowsContainer";
+import Boton from "../../components/atoms/Boton";
+import ShowsContainer from "../../components/atoms/ShowsContainer";
 import Arrow from "../../static/icons/arrow_back.svg";
 import "./ShowScreen.css";
 

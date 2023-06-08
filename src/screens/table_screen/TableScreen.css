@@ -1,0 +1,41 @@
+.table-screen {
+  display: flex;
+  width: 375px;
+  height: 812px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.table-screen-title {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.table-screen-title h4 {
+  display: flex;
+  width: 100%;
+  margin-top: 41px;
+  margin-bottom: 0px;
+  justify-content: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 22px;
+  letter-spacing: 1.59px;
+  color: #ffffff;
+}
+
+.table-screen-title h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  margin-top: 28px;
+  margin-bottom: 0;
+  margin-left: 31px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 1.59px;
+  color: #ffffff;
+}
