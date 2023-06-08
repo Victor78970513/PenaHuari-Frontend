@@ -1,6 +1,6 @@
 import React from 'react'
 
-const DishScreen = () => {
+const Atom = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const DishScreen = () => {
   )
 }
 
-export default DishScreen
+export default Atom

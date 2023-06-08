@@ -1,6 +1,6 @@
 import React from 'react'
 
-const atom = () => {
+const Organismo = () => {
   return (
     <div>
       
@@ -8,5 +8,5 @@ const atom = () => {
   )
 }
 
-export default atom
+export default Organismo
 
