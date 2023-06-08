@@ -8,7 +8,7 @@ const ShowScreen = () => {
   return (
     <div className="show-screen">
       <div className="show-title-area">
-        <Boton icono={Arrow} name_class={"boton-arrow"} />
+        <Boton icono={Arrow} type={"boton-arrow"} name_class={"boton-arrow"} />
         <h4>Shows</h4>
       </div>
       <ShowsContainer />
