@@ -1,7 +1,7 @@
 .table-screen {
   display: flex;
   width: 375px;
-  height: 812px;
+  height: 730px;
   align-items: center;
   flex-direction: column;
 }
@@ -16,7 +16,6 @@
   display: flex;
   width: 100%;
   margin-top: 41px;
-  margin-bottom: 0px;
   justify-content: center;
   font-family: "Poppins";
   font-style: normal;

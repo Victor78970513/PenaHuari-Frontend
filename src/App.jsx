@@ -7,10 +7,11 @@ import ProfileScreen from "./screens/profile_screen/ProfileScreen";
 import RestaurantLocation from "./screens/restaurant_location/RestaurantLocation";
 import "./App.css";
 import Navbar from "./components/molecules/NavBar";
+import ShowScreen from "./screens/show_screen/ShowScreen";
 
 function App() {
   const location = useLocation();
-  const Rutas = ['/location'];
+  const Rutas = ['/location','/show'];
   return (
     <div className="App">
       <Routes>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/table" element={<TableScreen />}/>
         <Route path="/profile" element={<ProfileScreen/>}/>
         <Route path="/location" element={<RestaurantLocation/>} />
+        <Route path="/show" element={<ShowScreen/>}/>
       </Routes>
       {!Rutas.includes(location.pathname)&&<Navbar/>}
     </div>
