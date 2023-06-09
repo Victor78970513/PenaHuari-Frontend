@@ -1,0 +1,16 @@
+.organismopi-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px;
+    gap: 21px;
+
+    width: 364px;
+    height: 875px;
+    left: 11px;
+    top: 202px;
+    overflow-y: scroll;
+}
+
+

@@ -1,0 +1,9 @@
+.All-conteiner{
+    width: 364px;
+    height: 98px;
+    overflow-x: scroll;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

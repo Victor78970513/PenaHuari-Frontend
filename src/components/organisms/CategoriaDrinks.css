@@ -1,0 +1,27 @@
+.Categoria-Drinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 386px;
+    height: 134px;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+.categoria-drinks-title{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 15px;
+    gap: 28px;
+
+    width: 172px;
+    height: 36px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

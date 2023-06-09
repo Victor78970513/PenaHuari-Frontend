@@ -6,14 +6,6 @@ const Boton = ({ icono, type, name_button }) => {
   const handleClick = () => {
     setIsButtonActive(!isButtonActive);
 
-    switch (type) {
-      case "mesa":
-        console.log("Mesa seleccionada");
-        break;
-      case "boton-reserva":
-        console.log("Mesa Reservada");
-        break;
-    }
   };
   const name_class = `${type} ${isButtonActive ? "active" : ""}`;
   return (

@@ -1,0 +1,28 @@
+.Categoria-Breakfast{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+
+    width: 364px;
+    height: 139px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.categoria-breakfast-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 15px;
+    gap: 15px;
+
+    width: 202px;
+    height: 36px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

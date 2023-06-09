@@ -1,0 +1,10 @@
+.platosdinner-conteiner{
+    width: 386px;
+    height: 98px;
+    overflow-x: scroll;
+    
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0; 
+}

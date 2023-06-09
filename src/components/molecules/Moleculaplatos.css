@@ -1,0 +1,14 @@
+.moleculaplatos-conteiner{
+    display: flex;
+    flex-direction: row;
+    
+    width: 364px;
+    height: 133px;
+    overflow-x: scroll;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
