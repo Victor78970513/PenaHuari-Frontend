@@ -13,19 +13,19 @@ const ListMenu = ({titulo}) => {
       </div>
       </div>
       <div className='bar'>
-      <NavLink to={"/"}>
+      <NavLink to={"/seccion/breakfast"}>
       <ButtonSection menu="Breakfast"/>
       </NavLink>
-      <NavLink to={"/Lunch"}>
+      <NavLink to={"/seccion/lunch"}>
       <ButtonSection menu="Lunch"/>
       </NavLink>
-      <NavLink to={"/Dinner"}>
+      <NavLink to={"/seccion/dinner"}>
       <ButtonSection menu="Dinner"/>
       </NavLink>
-      <NavLink to={"/Dessert"}>
+      <NavLink to={"/seccion/dessert"}>
       <ButtonSection menu="Dessert"/>
       </NavLink>
-      <NavLink to={"/Drinks"}>
+      <NavLink to={"/seccion/drinks"}>
       <ButtonSection menu="Drinks"/>
       </NavLink>
       </div>

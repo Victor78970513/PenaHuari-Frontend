@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "show_name": "Tinku",
+    "show_date": "21/04/2023",
+    "show_image": "src/static/images/Tinku.jpg",
+    "show_description": "El Tinku es un baile tradicional de Bolivia que se realizan en parejas con movimientos vigorosos y golpes ritmicos con las manos y los pies, representando la union y la solidaridad entre las comunidades andinas. Se utilizan en festivales y celebraciones religiosas, donde los participantes visten trajes coloridos y adornados"
+  },
+  {
+    "id": 2,
+    "show_name": "Tinku",
+    "show_date": "22/04/2023",
+    "show_image": "src/static/images/Tinku.jpg",
+    "show_description": "El Tinku es un baile tradicional de Bolivia que se realizan en parejas con movimientos vigorosos y golpes ritmicos con las manos y los pies, representando la union y la solidaridad entre las comunidades andinas. Se utilizan en festivales y celebraciones religiosas, donde los participantes visten trajes coloridos y adornados"
+  },
+  {
+    "id": 3,
+    "show_name": "Tinku",
+    "show_date": "23/04/2023",
+    "show_image": "src/static/images/Tinku.jpg",
+    "show_description": "El Tinku es un baile tradicional de Bolivia que se realizan en parejas con movimientos vigorosos y golpes ritmicos con las manos y los pies, representando la union y la solidaridad entre las comunidades andinas. Se utilizan en festivales y celebraciones religiosas, donde los participantes visten trajes coloridos y adornados"
+  },
+  {
+    "id": 4,
+    "show_name": "Tinku",
+    "show_date": "24/04/2023",
+    "show_image": "src/static/images/Tinku.jpg",
+    "show_description": "El Tinku es un baile tradicional de Bolivia que se realizan en parejas con movimientos vigorosos y golpes ritmicos con las manos y los pies, representando la union y la solidaridad entre las comunidades andinas. Se utilizan en festivales y celebraciones religiosas, donde los participantes visten trajes coloridos y adornados"
+  }
+]

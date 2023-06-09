@@ -1,0 +1,39 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .top-container {
+    width: 375px;
+    height: 199px;
+    background: linear-gradient(
+        180deg,
+        rgba(254, 160, 77, 0) 0%,
+        rgba(254, 160, 77, 0.6) 100%
+      ),
+      #f55243;
+  }
+  .photo-profile {
+    font-size: 112px;
+    color: #3c3c43;
+    background-color: white;
+    border-radius: 100px;
+  }
+  .profile-name {
+    margin-left: 30px;
+    margin-top: 140px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+  }
+  .profile-name span {
+    color: white;
+    font-weight: 400;
+    font-size: 28px;
+    margin-left: 30px;
+  }
+  .inputs-container {
+    height: 240px;
+    margin-top: 100px;
+    margin-bottom: 180px;
+  }
+  
