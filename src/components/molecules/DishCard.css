@@ -1,0 +1,53 @@
+
+.container img {
+    padding: 5px;
+    width: 69px;
+    height: 68px;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+}
+.container title {
+    padding-left: 20px;
+    padding-top: 20px;
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1.59px;
+    color: #000000;
+}
+.container p {
+    width: 90%;
+    height: 90%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 10px;
+    letter-spacing: 2.5px;
+    left: 69px;
+    color: #FCFCFC;
+
+}
+.container span{
+    padding-left: 80px;
+    padding-bottom: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1.59px;
+    color: #000000;
+
+}
+.container{
+    background: linear-gradient(300.06deg, #f0cece 0.95%, #7b6465 90%);
+    border-radius: 15px;
+
+}
+.container div{
+    display: flex;
+}

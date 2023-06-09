@@ -5,24 +5,34 @@ import DishScreen from "./screens/dish_screen/DishScreen";
 import TableScreen from "./screens/table_screen/TableScreen";
 import ProfileScreen from "./screens/profile_screen/ProfileScreen";
 import RestaurantLocation from "./screens/restaurant_location/RestaurantLocation";
-import "./App.css";
 import Navbar from "./components/molecules/NavBar";
 import ShowScreen from "./screens/show_screen/ShowScreen";
+import Breakfast_screen from "./screens/Breakfast_screen/BreakfastScreen";
+import LunchScreen from "./screens/Lunch_screen/LunchScreen";
+import DinnerScreen from "./screens/Dinner_screen/DinnerScreen";
+import DessertScreen from "./screens/Dessert_screen/DessertScreen";
+import DrinksScreen from "./screens/Drinks_screen/DrinksScreen";
+import "./App.css";
 
 function App() {
   const location = useLocation();
-  const Rutas = ['/location','/show'];
+  const Rutas = ["/location", "/show", "/seccion/breakfast", "/seccion/lunch","/seccion/dinner", "/seccion/drinks"];
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<HomeScreen/>}/>
-        <Route path="/dish" element={<DishScreen />}/>
-        <Route path="/table" element={<TableScreen />}/>
-        <Route path="/profile" element={<ProfileScreen/>}/>
-        <Route path="/location" element={<RestaurantLocation/>} />
-        <Route path="/show" element={<ShowScreen/>}/>
+        <Route path="/" element={<HomeScreen />} />
+        <Route path="/dish" element={<DishScreen />} />
+        <Route path="/table" element={<TableScreen />} />
+        <Route path="/profile" element={<ProfileScreen />} />
+        <Route path="/location" element={<RestaurantLocation />} />
+        <Route path="/show" element={<ShowScreen />} />
+        <Route path="/seccion/breakfast" element={<Breakfast_screen />} />
+        <Route path="/seccion/lunch" element={<LunchScreen />} />
+        <Route path="/seccion/dinner" element={<DinnerScreen />} />
+        <Route path="/seccion/dessert" element={<DessertScreen />} />
+        <Route path="/seccion/drinks" element={<DrinksScreen />} />
       </Routes>
-      {!Rutas.includes(location.pathname)&&<Navbar/>}
+      {!Rutas.includes(location.pathname) && <Navbar />}
     </div>
   );
 }

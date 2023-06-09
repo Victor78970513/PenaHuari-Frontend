@@ -1,0 +1,15 @@
+.Button_c{
+   
+    width: 73px;
+    height: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1.59px;
+    color: #FFFFFF;
+    display: grid;
+    text-align: center;
+    justify-content: space-evenly;
+}
