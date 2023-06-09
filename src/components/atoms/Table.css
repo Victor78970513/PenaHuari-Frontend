@@ -1,0 +1,11 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  width: 128px;
+  height: 110px;
+}
+
+.mesa-container {
+  display: flex;
+  justify-content: center;
+}

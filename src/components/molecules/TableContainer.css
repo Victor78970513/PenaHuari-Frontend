@@ -1,0 +1,13 @@
+.tables-container {
+  display: flex;
+  width: 319px;
+  height: 432px;
+  margin-top: 31px;
+  margin-bottom: 0px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+}
