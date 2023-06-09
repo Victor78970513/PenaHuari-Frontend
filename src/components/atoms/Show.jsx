@@ -8,13 +8,13 @@ const Show = (props) => {
   return (
     <button onClick={handleClick} className="show-card">
       <span className="show-title">
-        <span className="show-dance">{show.show_name}</span>
-        <span className="show-date">{show.show_date}</span>
+        <span className="show-dance">{show.nombre}</span>
+        <span className="show-date">{show.fecha}</span>
       </span>
       <span className="show-image">
-        <img src={show.show_image} alt="" />
+        <img src={show.imagen} alt="" />
       </span>
-      <span className="show-description">{show.show_description}</span>
+      <span className="show-description">{show.descripcion}</span>
     </button>
   );
 };
