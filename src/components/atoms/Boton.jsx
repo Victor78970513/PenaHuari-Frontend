@@ -13,6 +13,9 @@ const Boton = ({ icono, type, name_button }) => {
       case "boton-reserva":
         console.log("Mesa Reservada");
         break;
+      case "boton-arrow":
+        console.log("Boton atras show");
+        break;
     }
   };
   const name_class = `${type} ${isButtonActive ? "active" : ""}`;
