@@ -1,4 +1,4 @@
-import { NavBar } from "./components/molecules/NavBar";
+// import { NavBar } from "./components/molecules/NavBar";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import HomeScreen from "./screens/home_screen/HomeScreen";
 import DishScreen from "./screens/dish_screen/DishScreen";
@@ -6,6 +6,7 @@ import TableScreen from "./screens/table_screen/TableScreen";
 import ProfileScreen from "./screens/profile_screen/ProfileScreen";
 import RestaurantLocation from "./screens/restaurant_location/RestaurantLocation";
 import "./App.css";
+import Navbar from "./components/molecules/NavBar";
 
 function App() {
   const location = useLocation();
@@ -19,7 +20,7 @@ function App() {
         <Route path="/profile" element={<ProfileScreen/>}/>
         <Route path="/location" element={<RestaurantLocation/>} />
       </Routes>
-      {!Rutas.includes(location.pathname)&&<NavBar />}
+      {!Rutas.includes(location.pathname)&&<Navbar/>}
     </div>
   );
 }
