@@ -1,7 +1,7 @@
 .table-screen {
   display: flex;
   width: 375px;
-  height: 730px;
+  height: 720px;
   align-items: center;
   flex-direction: column;
 }
