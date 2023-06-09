@@ -1,0 +1,71 @@
+.boton-busqueda {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  background-color: #e7e7e7;
+  border: none;
+  align-items: center;
+  margin-left: 28px;
+}
+
+.boton-presupuesto {
+  display: flex;
+  width: 45px;
+  background-color: #1b1d22;
+  border: none;
+  align-items: center;
+}
+
+.boton-arrow {
+  display: flex;
+  width: 37px;
+  height: 34px;
+  padding: 0;
+  background-color: #1b1d22;
+  border: none;
+  align-items: center;
+  margin-left: 47px;
+  color: #ffffff;
+}
+
+.boton-reserva {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 275px;
+  height: 36px;
+  background: linear-gradient(
+      90deg,
+      rgba(254, 160, 77, 0.6) 18.17%,
+      rgba(254, 160, 77, 0) 89.62%
+    ),
+    #fe564d;
+  border-radius: 30px;
+  border: none;
+  margin-top: 45px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  letter-spacing: 1.59px;
+  color: #000000;
+}
+
+.mesa {
+  width: 106px;
+  height: 47px;
+  margin: 6px 0px;
+  background: #ffffff;
+  border: 5px solid #000000;
+  border-radius: 30px;
+}
+
+.mesa.active {
+  width: 106px;
+  height: 47px;
+  margin: 6px 0px;
+  background: #ffffff;
+  border: 5px solid #FE564D;
+  border-radius: 30px;
+}
