@@ -1,0 +1,47 @@
+.active{
+    background-image: linear-gradient(
+        90deg, #FEA04D, #FE564D
+    );
+    color: black;
+    border-radius: 30px;
+    padding: 5px 15px 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    font-size: 12px;
+}
+
+.no-active{
+    background-color: #272B2D;
+    color: #D1C7C7;
+    border-radius: 30px;
+    padding: 5px 15px 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    font-size: 12px;
+
+}
+
+.button-simple{
+    background-image: linear-gradient(
+        90deg, #FEA04D, #FE564D
+    );
+    height: 30px;   
+    color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 7px 80px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: 1.6px;
+}
+
+.icono{
+    font-size: 20px;
+}

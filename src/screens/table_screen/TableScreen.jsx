@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import TableContainer from "../../components/molecules/TableContainer";
 import Boton from "../../components/atoms/Boton";
@@ -17,3 +18,14 @@ const TableScreen = () => {
 };
 
 export default TableScreen;
+=======
+import React from 'react'
+import "./TableScreen.css"
+const TableScreen = () => {
+  return (
+    <div>TableScreen</div>
+  )
+}
+
+export default TableScreen
+>>>>>>> 0ba0258553284ddc9fdb8289c44906eb411ec990
