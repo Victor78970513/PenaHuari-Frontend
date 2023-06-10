@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Navbar.css";
+import "./NavBar.css";
 import { useNavigate } from "react-router-dom";
 import Button from "../atoms/Button";
 const Navbar = () => {
