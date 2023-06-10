@@ -1,0 +1,26 @@
+[
+    {"id": 1,
+     "imgsrc": "src/static/images/Charquekan.jpg",
+     "name": "Charquekan"
+    },
+    {"id": 2,
+     "imgsrc": "src/static/images/DesayunoYungueño.jpg",
+     "name": "Yungueño"
+    },
+    {"id": 3,
+     "imgsrc": "src/static/images/PiqueMacho.jpg",
+     "name": "Piquemacho"
+    },
+    {"id": 4,
+     "imgsrc": "src/static/images/Charquekan.jpg",
+     "name": "Charquekan"
+    },
+    {"id": 5,
+     "imgsrc": "src/static/images/DesayunoYungueño.jpg",
+     "name": "Yungueño"
+    },
+    {"id": 6,
+     "imgsrc": "src/static/images/PiqueMacho.jpg",
+     "name": "Piquemacho"
+    }
+]

@@ -1,12 +1,12 @@
 import React from 'react'
 import "./HomeScreen.css"
-import BarrasContainer from '../../components/molecules/BarrasContainer'
-import OrganismoPI from '../../components/organisms/OrganismoPI'
+import OrganismosTitle from '../../components/organisms/OrganismosTitle'
+import OrganismoPlatosP from '../../components/organisms/OrganismoPlatosP'
 const HomeScreen = () => {
   return (
     <div className='Pantalla-Home-conteiner'>
-        <BarrasContainer/>
-        <OrganismoPI/>
+        <OrganismosTitle/>
+        <OrganismoPlatosP/>
     </div>
   )
 }

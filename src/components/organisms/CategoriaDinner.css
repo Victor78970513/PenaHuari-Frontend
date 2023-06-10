@@ -7,10 +7,7 @@
     width: 386px;
     height: 134px;
     
-    
-    flex: none;
-    order: 3;
-    flex-grow: 0;  
+
 }
 .categoria-dinner-title{
     display: flex;

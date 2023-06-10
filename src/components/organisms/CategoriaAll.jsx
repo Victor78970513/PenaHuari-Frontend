@@ -1,15 +1,14 @@
 import React from 'react'
 import "./CategoriaAll.css"
-import Boton from '../atoms/Boton'
-import Logoall from "../../static/icons/tenedoreslogo.svg"
-import Moleculaplatos from '../molecules/Moleculaplatos'
+import Boton from '../atoms/BotonesHomeScreen'
+import AllMoleculasP from '../molecules/AllMoleculasP'
 const CategoriaAll = () => {
   return (
     <div className='Categoria-All'>
         <div className='categoria-title-area'>
             <Boton type ={"boton-all"} name_button={"All"}/>
         </div>
-        <Moleculaplatos/>
+        <AllMoleculasP/>
 
     </div>
   )

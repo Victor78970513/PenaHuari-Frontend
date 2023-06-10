@@ -1,16 +1,17 @@
 import React from 'react'
-import "./CategoriaDrinks.css"
-import Boton from '../atoms/Boton'
-import DrinksP from '../molecules/DrinksP'
-import Drinks from "../../static/icons/logoLauch.svg"
+import "./CategoriaDrinks.css";
+import Boton from '../atoms/BotonesHomeScreen';
+import Bebida from '../../static/icons/logoLauch.svg';
+import DrinksMoleculasP from '../molecules/DrinksMoleculasP';
 const CategoriaDrinks = () => {
-  return import(
-    <div className='Categoria-Drinks'>
-        <div className='categoria-drinks-title'>
-            <Boton type = {"boton-drinks"} name_button={"Drinks"}/>
-            <Boton icono={Drinks} name_class={"boton-logodrinks"}/>
+  return (
+    <div className='Categoria-Bebida'>
+        <div className='categoria-bebida-title'>
+            <Boton type={"boton-bebida"} name_button={"Drinks"}/>
+            <Boton icono={Bebida} type={"boton-logobebida"}/>
         </div>
-        <DrinksP/>
+        <DrinksMoleculasP/>
+
     </div>
   )
 }

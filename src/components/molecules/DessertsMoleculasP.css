@@ -1,0 +1,7 @@
+.platospostre-conteiner{
+    display: flex;
+    width: 386px;
+    height: 98px;
+    overflow-x: scroll;
+    
+}

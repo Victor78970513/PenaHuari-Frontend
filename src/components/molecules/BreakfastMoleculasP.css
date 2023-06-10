@@ -1,0 +1,7 @@
+.platosbreakfast-conteiner{
+    display: flex;
+    width: 364px;
+    height: 97px;
+    overflow-x: scroll;
+
+}
