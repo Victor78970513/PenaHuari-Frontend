@@ -26,11 +26,7 @@ function App() {
         <Route path="/profile" element={<ProfileScreen />} />
         <Route path="/location" element={<RestaurantLocation />} />
         <Route path="/show" element={<ShowScreen />} />
-        <Route path="/seccion/breakfast" element={<Breakfast_screen />} />
-        <Route path="/seccion/lunch" element={<LunchScreen />} />
-        <Route path="/seccion/dinner" element={<DinnerScreen />} />
-        <Route path="/seccion/dessert" element={<DessertScreen />} />
-        <Route path="/seccion/drinks" element={<DrinksScreen />} />
+        
       </Routes>
       {!Rutas.includes(location.pathname) && <Navbar />}
     </div>

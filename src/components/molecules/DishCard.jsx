@@ -5,6 +5,7 @@ import "./DishCard.css"
 const DishCard = ({title,descrip,price,url}) => {
   return (
     <div className='container'>
+      
       <h3>{title}</h3>
       <div>
       <img src={url}/>
