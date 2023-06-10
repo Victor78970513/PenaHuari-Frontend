@@ -7,7 +7,7 @@ const ListMenu = ({titulo}) => {
   return (
     <div className='cont'>
       <div className='title'>
-      <Icon icon="ic:outline-arrow-back" />
+      <NavLink to={"/"}><Icon icon="ic:outline-arrow-back"/></NavLink>
       <div>
       <h3>{titulo}</h3>
       </div>

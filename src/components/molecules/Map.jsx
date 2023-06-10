@@ -7,7 +7,6 @@ import {
   NavigationControl,
   Source,
 } from "react-map-gl";
-// import Map from "react-map-gl";
 const MapBox = () => {
   const [lng, setLng] = useState(-68.13882034873808);
   const [lat, setLat] = useState(-16.49766939997634);
@@ -33,7 +32,7 @@ const MapBox = () => {
           zoom: 14,
         }}
         mapboxAccessToken="pk.eyJ1Ijoid2lzY28xMiIsImEiOiJjbGhncHk1dWwwYXIxM2NwODk3cHEyemc5In0.lestajmAjlTu3qsjw-gNsg"
-        style={{ width: "315px", height: "519px", borderRadius: "20px",marginBottom:"30px"}}
+        style={{ width: "315px", height: "519px", borderRadius: "20px",marginBottom:"30px",marginLeft:"30px"}}
         mapStyle={"mapbox://styles/wisco12/clhi0osie02pa01pa51byh81b"}
       >
         <Marker longitude={lng} latitude={lat} />
@@ -62,7 +61,7 @@ const MapBox = () => {
             )
         }
       </Map>
-      <span onClick={obtenerRuta}>HOLAAAAA</span>
+      <span onClick={obtenerRuta} style={{color:"white"}}>HOLAAAAA</span>
     </div>
   );
 };
