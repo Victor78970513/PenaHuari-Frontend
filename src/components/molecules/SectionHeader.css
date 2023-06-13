@@ -1,0 +1,18 @@
+.section-header-container{
+    display: flex;
+}
+
+.section-header-button{
+    background: linear-gradient(270deg, rgba(254, 160, 77, 0) 0%, rgba(254, 160, 77, 0.6) 55.01%), #FE564D;
+    border: none;
+    border-radius: 30px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.section-icon{
+    color: white;
+    font-size: 36px;
+}

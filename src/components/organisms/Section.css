@@ -1,0 +1,23 @@
+.section-container{
+    margin-left: 16px;
+    height: 510px;
+    overflow-y: scroll;
+    margin-bottom: 30px;
+}
+.section-container::-webkit-scrollbar{
+    display: none;
+}
+.platos{
+    display: flex;
+    width: 350px;
+    flex: none;
+    /* overflow-x: scroll; */
+    /* scroll-behavior: smooth; */
+}
+.platos::-webkit-scrollbar{
+    display: none;
+}
+
+.title{
+    margin-bottom: 19px;
+}

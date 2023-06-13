@@ -1,0 +1,20 @@
+.register-button{
+    width: 297px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 7px;
+    margin-top: 60px;
+    margin-left: 30px;
+    gap: 5px;
+    background: linear-gradient(
+        270deg,
+        rgba(254, 160, 77, 0) -5.13%,
+        rgba(254, 160, 77, 0.6) 50%
+      ),
+      #fe564d;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}

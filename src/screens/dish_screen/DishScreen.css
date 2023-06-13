@@ -1,0 +1,19 @@
+.dish-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.dish-container p{
+    color: white;
+}
+.ingredientes{
+    width: 337px;
+    height: 56px;
+    background-color: #D9D9D9;
+    overflow-x: scroll;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.ingredientes::-webkit-scrollbar{
+    display: none;
+}

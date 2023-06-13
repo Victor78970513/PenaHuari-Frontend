@@ -1,0 +1,34 @@
+.show-card-container{
+    background-color: white;
+    width: 287px;
+    height: 146px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.title-show{
+    gap: 20px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.show-card-container img{
+    width: 200px;
+    height: 80px;
+    border-radius: 15px;
+}
+.show-card-container p{
+    padding-left: 10px;
+    margin: 0;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    max-lines: 2;
+}

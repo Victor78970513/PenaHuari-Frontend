@@ -1,0 +1,39 @@
+.presupuesto-container{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    margin-bottom: 21px;
+}
+.presupuesto{
+    display: flex;
+    align-items: center;
+    height: 26px;
+    width: 152px;
+    background-color: #E7E7E7;
+    border-radius: 30px;
+}
+.presupuesto-icon{
+    color: white;
+    font-size: 35px;
+}
+
+.presupuesto-input{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    margin-left: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.presupuesto-input:focus{
+    outline: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.presupuesto-input::placeholder{
+    color: black;
+    font-weight: bolder;
+}

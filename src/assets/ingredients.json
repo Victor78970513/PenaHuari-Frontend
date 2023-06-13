@@ -1,0 +1,47 @@
+[
+    {
+        "id" : 1,
+        "name": "carne",
+        "url": "https://res.cloudinary.com/dex17d0p4/image/upload/v1685822479/carne_de_res_ehkac1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "pollo",
+        "url": "https://res.cloudinary.com/dex17d0p4/image/upload/v1685822479/pollo_jd76at.jpg"
+    },
+    {
+        "id" : 3,
+        "name" :"cordero",
+        "url" : "https://res.cloudinary.com/dex17d0p4/image/upload/v1685822479/cordero_f9dj3g.jpg"
+    },
+    {
+        "id":4,
+        "name":"papa",
+        "url": "https://res.cloudinary.com/dex17d0p4/image/upload/v1685822478/papa_ku7hfa.jpg"
+    },
+    {
+        "id": 5,
+        "name": "tunta",
+        "url":"https://res.cloudinary.com/dex17d0p4/image/upload/v1685822478/tunta_gz24yb.jpg"
+    },
+    {
+        "id": 6,
+        "name" : "chuño",
+        "url": "https://res.cloudinary.com/dex17d0p4/image/upload/v1685822478/chuno_leq21o.jpg"
+    },
+    {
+        "id":7,
+        "name":"choclo",
+        "url" : "https://res.cloudinary.com/dex17d0p4/image/upload/v1685822478/choclo_y1vqw3.jpg"
+    },
+    {
+        "id" : 8,
+        "name": "arroz",
+        "url": "https://res.cloudinary.com/dex17d0p4/image/upload/v1685822478/arroz_ipck1h.jpg"
+    },
+    {
+        "id" : 9,
+        "name": "fideo",
+        "url" : "https://res.cloudinary.com/dex17d0p4/image/upload/v1685822479/fideo_ajuedv.jpg"
+    }
+]

@@ -1,0 +1,94 @@
+.details-dish-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .plato-image {
+    height: 291px;
+    width: 314px;
+    margin-left: 30px;
+    margin-bottom: 27px;
+    border-radius: 30px;
+  }
+  .details-icon {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 45px;
+  }
+  .details-dish-container p {
+    margin-left: 30px;
+    margin-right: 25px;
+    color: #e7e7e7;
+    font-size: 13px;
+    text-align: justify;
+    font-weight: 400;
+  }
+  .details-dish-container span {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-bottom: 27px;
+  }
+  .add-to-cart-button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 6px 7px;
+    margin-top: 700px;
+    margin-left: 24px;
+    width: 297px;
+    height: 39px;
+    background: linear-gradient(
+        270deg,
+        rgba(254, 160, 77, 0) -5.13%,
+        rgba(254, 160, 77, 0.6) 50%
+      ),
+      #fe564d;
+    border-radius: 30px;
+    font-size: 30px;
+  }
+  .add-to-cart-button span {
+    color: black;
+  }
+  .precio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .cantidad-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: #2d2b2b;
+    width: 90px;
+    height: 30px;
+    border-radius: 80px;
+    margin-left: 30px;
+  }
+  .cantidad-container span {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .cantidad-icon {
+    color: white;
+    font-size: 20px;
+  }
+  .precio-total {
+    width: 90px;
+    height: 35px;
+    background: #2d2b2b;
+    border-radius: 80px;
+    text-align: center;
+    color: white;
+    margin-right: 30px;
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  

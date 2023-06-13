@@ -1,26 +1,24 @@
-.show-title-area {
+.show-screen{
   display: flex;
-  width: 375px;
-  height: 84px;
-  flex-direction: row;
-  align-items: center;
-}
-
-.show-title-area h4 {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 22px;
-  letter-spacing: 1.59px;
-  color: #ffffff;
-  margin-left: 60px;
-}
-
-.show-screen {
-  display: flex;
-  width: 375px;
-  height: 812px;
   flex-direction: column;
   align-items: center;
+  height: 300px;
+}
+
+.show-topbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap:100px;
+  width: 375px;
+  height: 34px;
+  margin-left: 20px;
+  margin-top: 25px;
+  margin-bottom: 26px;
+}
+.show-topbar span{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
 }

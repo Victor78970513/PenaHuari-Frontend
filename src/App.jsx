@@ -1,4 +1,3 @@
-// import { NavBar } from "./components/molecules/NavBar";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import HomeScreen from "./screens/home_screen/HomeScreen";
 import DishScreen from "./screens/dish_screen/DishScreen";
@@ -7,32 +6,37 @@ import ProfileScreen from "./screens/profile_screen/ProfileScreen";
 import RestaurantLocation from "./screens/restaurant_location/RestaurantLocation";
 import Navbar from "./components/molecules/NavBar";
 import ShowScreen from "./screens/show_screen/ShowScreen";
-import Breakfast_screen from "./screens/Breakfast_screen/BreakfastScreen";
-import LunchScreen from "./screens/Lunch_screen/LunchScreen";
-import DinnerScreen from "./screens/Dinner_screen/DinnerScreen";
-import DessertScreen from "./screens/Dessert_screen/DessertScreen";
-import DrinksScreen from "./screens/Drinks_screen/DrinksScreen";
 import "./App.css";
+import { useState } from "react";
+import DetailsDish from "./screens/details_dish/DetailsDish";
+import Orders from "./screens/orders/Orders";
+import LoginScreen from "./screens/login_screen/LoginScreen";
+import RegisterScreen from "./screens/register_screen/RegisterScreen";
+import SectionDish from "./screens/section_dish/SectionDish";
 
 function App() {
   const location = useLocation();
-  const Rutas = ["/location", "/show", "/seccion/breakfast", "/seccion/lunch","/seccion/dinner", "/seccion/drinks"];
+  const hideNavBarRoutes = ['/shows','/location','/detailsDish','/login','/register','/reserve','/orders','/sectionDish'];
+  const [selectedItems, setSelectedItems] = useState([]);
+  const addItem = (item) => {
+    setSelectedItems([...selectedItems, item])
+  }
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<HomeScreen />} />
-        <Route path="/dish" element={<DishScreen />} />
+        <Route path="/dish" element={<DishScreen/>} />
         <Route path="/table" element={<TableScreen />} />
         <Route path="/profile" element={<ProfileScreen />} />
+        <Route path="/shows" element={<ShowScreen />} />
         <Route path="/location" element={<RestaurantLocation />} />
-        <Route path="/show" element={<ShowScreen />} />
-        <Route path="/seccion/breakfast" element={<Breakfast_screen />} />
-        <Route path="/seccion/lunch" element={<LunchScreen />} />
-        <Route path="/seccion/dinner" element={<DinnerScreen />} />
-        <Route path="/seccion/dessert" element={<DessertScreen />} />
-        <Route path="/seccion/drinks" element={<DrinksScreen />} />
+        <Route path="/detailsDish" element={<DetailsDish addItem={addItem}/>}/>
+        <Route path="/orders" element={<Orders items={selectedItems}/>}/>
+        <Route path="/login" element={<LoginScreen/>}/>
+        <Route path="/register" element={<RegisterScreen/>}/>
+        <Route path="/sectionDish" element={<SectionDish/>}/>
       </Routes>
-      {!Rutas.includes(location.pathname) && <Navbar />}
+      {!hideNavBarRoutes.includes(location.pathname) && <Navbar />}
     </div>
   );
 }

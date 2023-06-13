@@ -1,0 +1,45 @@
+.section-dish-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:60px;
+    height: 34px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 26px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.tabBar{
+    /* background-color: red; */
+    width: 335px;
+    height: 18px;
+    margin-left: 24px;
+}
+.tabBar span{
+    font-weight: 700;
+    margin-right: 20px;
+}
+.tab-active{
+    color: white;
+    font-size: 16px;
+}
+.tab-deactive{
+    color: white;
+    font-size: 12px;
+}
+.content{
+    display: none;
+    width: 350px;
+    height: 630px;
+    margin-top: 30px;
+    display: none;
+    overflow-y: scroll;
+}
+.content::-webkit-scrollbar{
+    display: none;
+}
+.active{
+    display: block;
+}

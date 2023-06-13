@@ -1,0 +1,150 @@
+.orders-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .order-top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 70px;
+    width: 375px;
+    height: 34px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 6px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .line-order {
+    height: 3px;
+    width: 324px;
+    margin-left: 25px;
+    background: linear-gradient(
+        180deg,
+        rgba(254, 160, 77, 0) 0%,
+        rgba(254, 160, 77, 0.2) 60.31%
+      ),
+      #f55243;
+  }
+  .line-order-2{
+    height: 5px;
+    width: 300px;
+    background: linear-gradient(
+      180deg,
+      rgba(254, 160, 77, 0) 0%,
+      rgba(254, 160, 77, 0.2) 60.31%
+    ),
+    #f55243;
+    margin-right: 15px;
+  }
+  .lista-de-platos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 235px;
+    width: 324px;
+    background-color: #272B2D;
+    overflow-y: scroll;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 38px;
+    padding-top: 20px;
+  }
+  .lista-de-platos::-webkit-scrollbar{
+    display: none;
+  }
+  .container-1{
+    display: flex;
+    flex-direction: column;
+  }
+  .total-container{
+    margin-top: 20px;
+  }
+  .items-container{
+    height: 150px;
+    width: 324px;
+    overflow-y: scroll;
+    /* background-color: red; */
+  }
+  .lista-platos-imagenes{
+    display: flex;
+    flex-direction: column;
+    height: 287px;
+    width: 324px;
+    background-color: #272B2D;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-bottom: 38px;
+    overflow-y: scroll;
+  }
+  .lista-platos-imagenes::-webkit-scrollbar{
+    display: none;
+  }
+  .lista-platos-imagenes img{
+    height: 60px;
+    width: 90px;
+    border-radius: 30px;
+    margin-right: 10px;
+  }
+  .plato-order{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 20px;
+    color: white;
+  }
+  .item-reserva{
+    width: 271px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .item-name{
+    width: 210px;
+    text-align: start;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .item-price{
+    width: 53px;
+    text-align: start;
+  }
+  .payment-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 7px;
+    margin-top: 10px;
+    margin-left: 30px;
+    gap: 5px;
+    width: 297px;
+    height: 39px;
+    background: linear-gradient(
+      270deg,
+      rgba(254, 160, 77, 0) -5.13%,
+      rgba(254, 160, 77, 0.6) 50%
+    ),
+    #fe564d;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+  .total-price{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+  }
