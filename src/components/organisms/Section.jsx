@@ -25,28 +25,28 @@ const Section = () => {
       </div>
 
       <div className="title">
-        <SectionHeader text={"Lunch"} onClick={()=>onPressed("Lunch")} icon={"icon-park-twotone:chicken"}/>
+        <SectionHeader text={"Lunch"} onClick={()=>navigate("/sectionDish")} icon={"icon-park-twotone:chicken"}/>
         <div className="platos">
           <Plato endpoint={"/lunch"}/>
         </div>
       </div>
 
       <div className="title">
-        <SectionHeader text={"Dinner"} onClick={()=>onPressed("Dinner")} icon={"lucide:soup"}/>
+        <SectionHeader text={"Dinner"} onClick={()=>navigate("/sectionDish")} icon={"lucide:soup"}/>
         <div className="platos">
           <Plato endpoint={"/dinner"}/>
         </div>
       </div>
 
       <div className="title">
-        <SectionHeader text={"Drink"} onClick={()=>onPressed("Drink")} icon={"nimbus:drink"}/>
+        <SectionHeader text={"Drink"} onClick={()=>navigate("/sectionDish")} icon={"nimbus:drink"}/>
         <div className="platos">
           <Plato endpoint={"/drink"}/>
         </div>
       </div>
 
       <div className="title">
-        <SectionHeader text={"Dessert"} onClick={()=>onPressed("Dessert")} icon={"emojione-monotone:ice-cream"}/>
+        <SectionHeader text={"Dessert"} onClick={()=>navigate("/sectionDish")} icon={"emojione-monotone:ice-cream"}/>
         <div className="platos">
           <Plato endpoint={"/dessert"}/>
         </div>
