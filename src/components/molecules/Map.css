@@ -1,0 +1,30 @@
+.mapa-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 23px;
+}
+.get-route-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 7px;
+    margin-top: 10px;
+    margin-left: 14px;
+    gap: 5px;
+    width: 297px;
+    height: 39px;
+    background: linear-gradient(
+      270deg,
+      rgba(254, 160, 77, 0) -5.13%,
+      rgba(254, 160, 77, 0.6) 50%
+    ),
+    #fe564d;
+    border-radius: 30px;
+    font-size: 30px;
+}
+.get-route-button span{
+    font-size: 24px;
+    font-weight: bold;
+}

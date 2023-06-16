@@ -17,3 +17,33 @@
 .ingredientes::-webkit-scrollbar{
     display: none;
 }
+.ingrediente-title{
+    margin-top: 20px;
+    margin-left: 22px;
+    font-size: 15px;
+    color: white;
+}
+.platos-ingrediente{
+    height: 217px;
+    /* width: 344px; */
+    /* background-color: red; */
+    margin-bottom: 28px;
+    margin-top: 15px;
+    margin-left: 10px;
+    overflow-y: scroll;
+}
+.platos-ingrediente::-webkit-scrollbar{
+    display: none;
+}
+.no-ingredient-container{
+    color: white;
+    font-size: 20px;
+    height: 217px;
+    margin-bottom: 28px;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

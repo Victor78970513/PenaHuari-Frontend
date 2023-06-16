@@ -1,19 +1,24 @@
+.search-container{
+    display: flex;
+    flex-direction: row;
+}
 .search{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 70px;
+    justify-content: flex-end;
     background-color: #E7E7E7;
     border-radius: 30px;
-    width: 335px;
+    width: 250px;
     height: 35px;
     margin-left: 16px;
     margin-bottom: 12px;
+    text-align: end;
 }
-
 .search-icon{
     padding-left: 20px;
-    font-size: 16px;
+    font-size: 40px;
+    color: white;
 }
 
 .search input{
@@ -25,4 +30,3 @@
 .search input:focus{
     outline: none;
 }
-

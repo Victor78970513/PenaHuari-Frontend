@@ -1,0 +1,27 @@
+.account-2-input-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.account-2-input-container span{
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.account-input-container{
+    height: 39px;
+    width: 320px;
+    margin-left: 25px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+}
+.account-input-container input{
+    all: unset;
+}
+.account-input-container input::placeholder{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}

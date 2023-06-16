@@ -23,13 +23,14 @@ const ProfileScreen = () => {
       })
       .then((err) => console.log(err));
   }, []);
-  const handleNavigate = (path) =>{}
-  const handleDelete=()=>{
-    axios.get("http://localhost:3000/logout")
-    .then(res=>{
-      location.reload(true)
-    }).catch(err => console.log(err))
-  }
+  const handleDelete = () => {
+    axios
+      .get("http://localhost:3000/logout")
+      .then((res) => {
+        location.reload(true);
+      })
+      .catch((err) => console.log(err));
+  };
   return auth ? (
     <div className="profile-container">
       <div className="top-container"></div>
@@ -38,18 +39,12 @@ const ProfileScreen = () => {
         <span>Hola, {name}</span>
       </div>
       <div className="inputs-container">
-        <ProfileButton
-          icon={"iconamoon:profile"}
-          text={"Account"}
-        />
-        <ProfileButton
-          icon={"mdi:payment"}
-          text={"Payment method"}
-        />
-        <ProfileButton
-          icon={"mdi:key-outline"}
-          text={"Change password"}
-        />
+        <NavLink className="navlink" to={"/account"}>
+          <ProfileButton icon={"iconamoon:profile"} text={"Account"} />
+        </NavLink>
+        <NavLink to={"/paymentMethod"} className="navlink"><ProfileButton icon={"mdi:payment"} text={"Payment method"} /></NavLink>
+        
+        <NavLink className="navlink" to={"/password"}><ProfileButton icon={"mdi:key-outline"} text={"Change password"} /></NavLink>
         <ProfileButton
           icon={"humbleicons:logout"}
           text={"Log out"}
@@ -65,10 +60,9 @@ const ProfileScreen = () => {
         <span>Unknow</span>
       </div>
       <div className="inputs-container">
-        <NavLink to={"/login"} className="navlink">      <ProfileButton
-          icon={"memory:login"}
-          text={"Login"}
-        /></NavLink>
+        <NavLink to={"/login"} className="navlink">
+          <ProfileButton icon={"memory:login"} text={"Login"} />
+        </NavLink>
       </div>
     </div>
   );

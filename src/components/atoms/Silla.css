@@ -1,0 +1,9 @@
+
+.silla-container{
+    box-sizing: border-box;
+    width: 31px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-left: 25px;
+}

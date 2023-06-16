@@ -1,0 +1,40 @@
+.mesa-container{
+    display: flex;
+    flex-direction: column;
+    width: 128px;
+    height: 110px;
+    margin-bottom: 30px;
+}
+.sillas{
+    display: flex;
+    flex-direction: row;
+}
+.mesa{
+    text-align: center;
+    box-sizing: border-box;
+    width: 106px;
+    height: 47px;
+    border-radius: 30px;
+    border: 5px solid black;
+    margin-left: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.selected{
+    text-align: center;
+    box-sizing: border-box;
+    width: 106px;
+    height: 47px;
+    border-radius: 30px;
+    border: 5px solid orange;
+    margin-left: 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 22px;
+    font-weight: 400;
+}
+/* .selected{
+    border-color: orange;
+} */

@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 300px;
 }
 
 .show-topbar{
@@ -21,4 +20,11 @@
   color: white;
   font-size: 24px;
   font-weight: bold;
+}
+.show-section{
+  height: 700px;
+  overflow-y: scroll;
+}
+.show-screen::-webkit-scrollbar{
+  display: none;
 }

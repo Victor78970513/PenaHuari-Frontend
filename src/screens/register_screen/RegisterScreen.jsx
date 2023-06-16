@@ -35,7 +35,7 @@ const RegisterScreen = () => {
         <CustomInput title={"Email"} placeholder={"Enter your email"} name={'correo'} onChange={handleChange} value={values.correo_electronico}/>
         <CustomInput title={"Password"} placeholder={"Enter your password"} name={'contrasena'} onChange={handleChange} value={values.contrasena}/>
         <CustomInput title={"Phone number"} placeholder={"Enter your phone number"} name={'telefono'} onChange={handleChange} value={values.telefono}/>
-        <Button text={"Sign up"} css={"register-button"} onClick={handleSumit}/>
+        <Button text={"Crear"} css={"register-button"} onClick={handleSumit}/>
         </form>
     </div>
   )

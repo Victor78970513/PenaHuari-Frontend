@@ -12,6 +12,7 @@ const DetailsDish = ({ addItem }) => {
   const navigate = useNavigate();
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
+  const id = searchParams.get("id");
   const imagen = searchParams.get("imagen");
   const nombre = searchParams.get("nombre");
   const descripcion = searchParams.get("descripcion");
@@ -23,7 +24,6 @@ const DetailsDish = ({ addItem }) => {
     const nuevoPrecioTotal = precio * nuevaCantidad;
     setCantidad(nuevaCantidad);
     setPrecioTotal(nuevoPrecioTotal);
-    console.log(nuevaCantidad);
   };
   const removeCantidad = () => {
     if (cantidad > 0) {
@@ -31,7 +31,6 @@ const DetailsDish = ({ addItem }) => {
       const nuevoPrecioTotal = precio * nuevaCantidad;
       setCantidad(nuevaCantidad);
       setPrecioTotal(nuevoPrecioTotal);
-      console.log(nuevaCantidad);
     }
   };
   return (
@@ -65,7 +64,7 @@ const DetailsDish = ({ addItem }) => {
         text={"Add to cart"}
         icon={"fa6-solid:shop"}
         onClick={()=> {
-          handleItemClick({name:nombre,price:precioTotal,cantidad:cantidad,image:imagen})
+          handleItemClick({id_comida:id,name:nombre,price:precioTotal,cant:cantidad,image:imagen})
           navigate("/orders")
         }}
       />

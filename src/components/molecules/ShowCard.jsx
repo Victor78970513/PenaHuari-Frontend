@@ -23,7 +23,7 @@ const ShowCard = () => {
             <span>{show.nombre}</span>
             <span>{(show.fecha).substring(0,10)}</span>
           </div>
-          <img src="../../src/assets/tinku.jpg" alt="" />
+          <img src={`https://res.cloudinary.com/dex17d0p4/image/upload${show.imagen}`} alt="" />
           <p>{show.descripcion}</p>
         </div>
       ))}

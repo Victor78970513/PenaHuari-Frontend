@@ -23,7 +23,7 @@ const Plato = ({ endpoint }) => {
         <div
           className="plato-container"
           key={plato.id_comida}
-          onClick={() => navigate(`/detailsDish?imagen=${plato.imagen}&nombre=${plato.nombre}&descripcion=${plato.descripcion}&precio=${plato.precio}`)}
+          onClick={() => navigate(`/detailsDish?id=${plato.id_comida}&imagen=${plato.imagen}&nombre=${plato.nombre}&descripcion=${plato.descripcion}&precio=${plato.precio}`)}
         >
           <span>{plato.nombre}</span>
           <img src={plato.imagen} alt="" />

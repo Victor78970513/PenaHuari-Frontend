@@ -1,0 +1,25 @@
+.presupuestoTopBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:30px;
+    height: 34px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* .presupuesto-platos-container{
+    height: 700px;
+    width: 370px;
+    overflow-y: scroll;
+} */
+.presu-platos{
+    height: 650px;
+    width: 370px;
+    overflow-y: scroll;
+}
+.presu-platos::-webkit-scrollbar{display: none;}
