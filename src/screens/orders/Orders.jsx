@@ -51,7 +51,7 @@ const Orders = ({ items }) => {
               {items.map((item, index) => (
                 <div className="item-reserva" key={index}>
                   <div className="item-name">
-                    <span style={{ marginRight: "10px" }}>{item.cantidad}.</span>
+                    <span style={{ marginRight: "10px" }}>{item.cant}.</span>
                     <span>{item.name}</span>
                   </div>
                   <div className="item-price">Bs.{item.price}</div>
