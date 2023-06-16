@@ -13,6 +13,7 @@ import DinnerScreen from "./screens/Dinner_screen/DinnerScreen";
 import DessertScreen from "./screens/Dessert_screen/DessertScreen";
 import DrinksScreen from "./screens/Drinks_screen/DrinksScreen";
 import "./App.css";
+import InformationScreen from "./screens/Information_screen/InformationScreen";
 
 function App() {
   const location = useLocation();
@@ -26,6 +27,7 @@ function App() {
         <Route path="/profile" element={<ProfileScreen />} />
         <Route path="/location" element={<RestaurantLocation />} />
         <Route path="/show" element={<ShowScreen />} />
+        <Route path="/Information" element={<InformationScreen/>} />
         
       </Routes>
       {!Rutas.includes(location.pathname) && <Navbar />}

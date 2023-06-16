@@ -1,0 +1,19 @@
+.card{
+    width: 323px;
+    height: 47px;
+    left: 29px;
+    top: 705px;
+
+    background: linear-gradient(90deg, rgba(254, 160, 77, 0.6) 30.85%, rgba(213, 43, 30, 0) 103.41%), #F55243;
+    border-radius: 30px;
+}
+.card-container{
+    
+    
+        display: flex;
+    justify-content: center;
+    
+        width: 188.75px;
+        height: 29px;
+   
+}

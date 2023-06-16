@@ -1,0 +1,46 @@
+.info {
+   
+    
+}
+.info1 img {
+    width: 314px;
+    height: 291px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+.info-container h3{
+    
+    width: 185px;
+    height: 22px;
+    left: 30px;
+    top: 406px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: 1.59px;
+
+    color: #E7E7E7;
+
+}
+.info-container p{
+  
+    width: 320px;
+    height: 125px;
+    left: 30px;
+    top: 455px;
+
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: justify;
+
+    color: #E7E7E7;
+
+
+}
